@@ -1,0 +1,137 @@
+body {
+    background-image: url("Untitled52_20211228001053.png");
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+}
+h2{
+    text-align: center;
+    color: white;
+    text-align: center;
+ position: fixed;
+ margin-right: 30%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.box{
+    height: 160px;
+    width: 100%;
+    border: 5px solid rgba(255, 255, 255, 0);
+    position: relative;
+   }
+   
+   .box3, .box1 {
+       height: 100px;
+       width: 195px;
+   }
+   .box1{
+       background-color: rgba(255, 255, 0, 0);
+   }
+   .box3{
+       background-color: rgba(153, 205, 50, 0);
+       position: absolute;
+       left: -5px;
+       top: -5px;
+   }
+   .fh{
+    margin-top: 88px;
+    margin-right: 30px;
+    height: 75px;
+    width: 180px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    position: relative;
+    position: fixed;
+}
+
+.rf{
+    margin-right: 66px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+.y{
+    animation-name: ul;
+    animation-duration: 2.8s;
+  position:relative;
+  animation-direction: alternate;
+  z-index: 1;
+}
+@keyframes ul{
+    0%{
+        left: 119px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.q{
+    animation-name: q;
+    animation-duration: 2.4s;
+  position:relative;
+}
+@keyframes q{
+    0%{
+        left: 100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.w{
+    animation-name: w;
+    animation-duration: 2.9s;
+  position:relative;
+  z-index: -1;
+}
+@keyframes w{
+    0%{
+        left: 100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.r{
+    animation-name: r;
+    animation-duration: 2.4s;
+  position:relative;
+  z-index: 1;
+}
+@keyframes r{
+    0%{
+        left: 100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.t{
+    animation-name: t;
+    animation-duration: 2.9s;
+  position:relative;
+  z-index: -1;  
+}
+@keyframes t{
+    0%{
+        left: 100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.e{
+    animation-name: e;
+    animation-duration: 3.4s;
+  position:relative;
+  z-index: -1;  
+}
+@keyframes e{
+    0%{
+        left: 100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
